@@ -1,0 +1,207 @@
+/* Estilos básicos para la página */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('https://static.vecteezy.com/system/resources/previews/008/866/997/non_2x/dark-and-black-wall-halloween-background-concept-black-concrete-dusty-for-background-horror-cement-texture-free-photo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #eee;
+}
+
+/* Estilos para el header */
+header {
+    background-color: rgba(34, 34, 34, 0.8); /* Fondo semi-transparente */
+    color: #e63946;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 2px solid #e63946;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #e63946;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el main */
+main {
+    padding: 20px;
+    background-color: rgba(34, 34, 34, 0.8); /* Fondo semi-transparente */
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(34, 34, 34, 0.8); /* Fondo semi-transparente */
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    border-bottom: 2px solid #e63946;
+    padding-bottom: 10px;
+    color: #e63946;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e63946;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #222;
+    color: #eee;
+}
+
+button {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d62828;
+}
+/* Estilos para el footer */
+footer {
+    background-color: rgba(34, 34, 34, 0.8); /* Fondo semi-transparente */
+    color: #e63946;
+    text-align: center;
+    padding: 1em;
+    border-top: 2px solid #e63946;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Botón */
+button {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d62828;
+}
+/* Estilos para el footer */
+footer {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: #e63946;
+    text-align: center;
+    padding: 1em;
+    border-top: 2px solid #e63946;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos para las historias enviadas */
+#submittedStories {
+    margin-top: 20px;
+}
+
+#storiesList {
+    list-style: none;
+    padding: 0;
+}
+
+#storiesList li {
+    background-color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+/* Estilos para las historias enviadas */
+#submittedStories {
+    margin-top: 20px;
+}
+
+#storiesList {
+    list-style: none;
+    padding: 0;
+}
+
+#storiesList li {
+    background-color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+}
+
+#storiesList li h4 {
+    margin: 0 0 10px 0;
+    color: #e63946;
+}
+
+#storiesList li p {
+    margin: 0;
+}
+
+#storiesList li .delete-story {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#storiesList li .delete-story:hover {
+    background-color: #d62828;
+}
+
+/* Estilos para los comentarios */
+.comments {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 4px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment-form {
+    margin-top: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Historias de Terror</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Historias de Terror</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="write">
+            <h2>Escribe tu Historia</h2>
+            <form id="storyForm">
+                <label for="storyTitle">Título de la Historia:</label>
+                <input type="text" id="storyTitle" name="storyTitle" required>
+                
+                <label for="storyContent">Tu Historia:</label>
+                <textarea id="storyContent" name="storyContent" rows="10" required></textarea>
+                
+                <button type="submit">Enviar Historia</button>
+            </form>
+            <div id="submittedStories">
+                <h3>Historias Enviadas</h3>
+                <ul id="storiesList"></ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Historias de Terror</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
